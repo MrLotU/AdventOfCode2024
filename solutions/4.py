@@ -18,7 +18,7 @@ with open("inputs/4.txt", "r") as f:
 lines = lines_raw.split("\n")
 mod = len(lines[0])
 cols = [[row[x] for row in lines] for x in range(mod)]
-print(cols)
+
 print("---- DAY 4 PART 1 ----")
 
 CHECKS = [
